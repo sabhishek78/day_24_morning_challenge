@@ -11,7 +11,7 @@
 
 bool checkPanDigital(int input){
   String inputString=input.toString();
-  print(inputString);
+
   for(int i=0;i<10;i++){
     if(!inputString.contains('$i'))
       {
@@ -68,8 +68,8 @@ bool overlap(int x2, int x3, int y2 , int y3){
 }
 
 main() {
-print(checkPanDigital(11234567890));
-print(checkPanDigital(125));
+//print(checkPanDigital(11234567890));
+//print(checkPanDigital(125));
 print(overlappingRectangles([{ 'x': 5, 'y': 0 }, { 'x': 0, 'y': 10 }],[{ 'x': 15, 'y': 15 }, { 'x': 20, 'y': 20 }]));
 print(overlappingRectangles([{ 'x': 2, 'y': 1 }, { 'x': 5, 'y': 5 }],[{ 'x': 3, 'y': 2 }, { 'x': 5, 'y': 7 }]));
 
