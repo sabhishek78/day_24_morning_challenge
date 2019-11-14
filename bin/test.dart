@@ -3,8 +3,8 @@ import 'main.dart';
 import 'package:test/test.dart';
 
 void main() {
-  test('checkPanDigital', () {
-    expect(checkPanDigital(11234567890), true);
+  test('calculate point', () {
+    expect(calPoint({'x':50,'y':60},{'x':100,'y':100},10),);
     expect(checkPanDigital(90), false);
     expect(checkPanDigital(-90), false);
   });
